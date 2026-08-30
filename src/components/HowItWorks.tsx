@@ -63,7 +63,7 @@ export default function HowItWorks() {
         {/* Demo video */}
         <div className="mt-16 overflow-hidden rounded-3xl bg-ink-950 shadow-card">
           <video
-            src="/videos/blockfire-how-it-works.mp4"
+            src=`${import.meta.env.BASE_URL}videos/blockfire-how-it-works.mp4`
             controls
             playsInline
             className="w-full max-h-[520px] bg-black"
