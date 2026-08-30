@@ -48,8 +48,8 @@ export const PRODUCTS: Product[] = [
     activationTemperature: null,
     stock: true,
     images: [
-      `${import.meta.env.BASE_URL}products/NoFire-device-studio.jpeg`,
-      `${import.meta.env.BASE_URL}products/NoFire-device-label.jpeg`,
+      `${import.meta.env.BASE_URL}products/BlockFire-device-studio.jpeg`,
+      `${import.meta.env.BASE_URL}products/BlockFire-device-label.jpeg`,
     ],
   },
 ];
