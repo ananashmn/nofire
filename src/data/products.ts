@@ -31,7 +31,7 @@ export const PRODUCTS: Product[] = [
     id: 1,
     name: "NoFire — Heat Aerosol Fire Extinguishing Device",
     nameAr: "جهاز NoFire للإطفاء التلقائي بالأيروسول الحراري",
-    slug: "nofire-device",
+    slug: "blockfire-device",
     description:
       "جهاز إطفاء تلقائي مدمج يعمل بتقنية الأيروسول الحراري المكثف. يُركّب داخل اللوحات والخزائن الكهربائية والمساحات المغلقة الصغيرة، ويتفاعل تلقائياً عند ارتفاع درجة الحرارة دون الحاجة لأي تدخل يدوي أو مصدر طاقة.",
     price: 160,
