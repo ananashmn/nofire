@@ -33,7 +33,7 @@ export default function Product() {
         <div className="max-w-2xl fade-section">
           <span className="eyebrow">المنتج</span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-ink-950 sm:text-4xl">
-            جهاز BlockFire للإطفاء التلقائي
+            جهاز NoFire للإطفاء التلقائي
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-ink-500">{PRODUCT.description}</p>
         </div>

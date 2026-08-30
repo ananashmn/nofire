@@ -40,7 +40,7 @@ export function buildWhatsAppOrderUrl(quantity: number, customer?: CustomerInfo)
  * رابط واتساب عام (بدون طلب محدد)، يُستخدم في أزرار "تواصل معنا" أو "اطلب عبر واتساب".
  */
 export function buildWhatsAppSimpleUrl(prefill?: string): string {
-  const text = prefill || "السلام عليكم، أرغب في معرفة المزيد حول جهاز BlockFire.";
+  const text = prefill || "السلام عليكم، أرغب في معرفة المزيد حول جهاز NoFire.";
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 }
 

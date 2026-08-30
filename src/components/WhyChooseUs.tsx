@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
           <div className="fade-section">
             <span className="eyebrow">الثقة</span>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              لماذا تختارون BlockFire
+              لماذا تختارون NoFire
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-white/60">
               نرافق عملاءنا قبل الشراء وبعده لمساعدتهم على اختيار الحل الأنسب لتركيبهم.

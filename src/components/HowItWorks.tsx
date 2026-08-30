@@ -63,14 +63,14 @@ export default function HowItWorks() {
         {/* Demo video */}
         <div className="mt-16 overflow-hidden rounded-3xl bg-ink-950 shadow-card">
           <video
-            src={`${import.meta.env.BASE_URL}videos/blockfire-how-it-works.mp4`}
+            src={`${import.meta.env.BASE_URL}videos/nofire-how-it-works.mp4`}
             controls
             playsInline
             className="w-full max-h-[520px] bg-black"
           />
         </div>
         <p className="mt-3 text-center text-sm text-ink-500">
-          فيديو توضيحي لطريقة عمل جهاز BlockFire.
+          فيديو توضيحي لطريقة عمل جهاز NoFire.
         </p>
       </div>
     </section>

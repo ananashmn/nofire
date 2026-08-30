@@ -9,7 +9,7 @@ export const CONTACT = {
   whatsappNumber: WHATSAPP_NUMBER,
   whatsappDisplay: "565 330 632 212+",
   phone: "565 330 632 212+",
-  email: "contact@blockfire.ma",
+  email: "contact@nofire.ma",
   city: "الدار البيضاء",
   address: "290 Bd Abdelmoumen, Casablanca 20100", // مثال: "الدار البيضاء" — اتركوه فارغاً لإخفاء الخريطة
   hours: "على طول الأسبوع",
