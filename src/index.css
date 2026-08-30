@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cairo:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* الأرقام والمصطلحات التقنية (موديلات، وحدات قياس) تبقى بخط Inter لوضوح أفضل */
+.ltr-numeric {
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+::selection {
+  background-color: #e11d2f;
+  color: white;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+}
+
+.section-py {
+  @apply py-16 sm:py-20 lg:py-28;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-fire-600 px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition-all duration-200 hover:bg-fire-700 hover:shadow-card active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-ink-900/10 bg-white px-6 py-3.5 text-sm font-semibold text-ink-900 shadow-soft transition-all duration-200 hover:border-ink-900/20 hover:shadow-card active:scale-[0.98];
+}
+
+.btn-whatsapp {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition-all duration-200 hover:bg-[#1ebe57] hover:shadow-card active:scale-[0.98];
+}
+
+.card {
+  @apply rounded-2xl border border-ink-900/[0.06] bg-white shadow-soft transition-all duration-300 hover:shadow-card;
+}
+
+.eyebrow {
+  @apply text-xs font-bold uppercase tracking-widest text-fire-600;
+}
+
+.fade-section {
+  animation: fadeInUp 0.7s ease-out both;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfd2d8;
+  border-radius: 8px;
+}
