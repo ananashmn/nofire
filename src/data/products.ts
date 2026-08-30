@@ -48,8 +48,8 @@ export const PRODUCTS: Product[] = [
     activationTemperature: null,
     stock: true,
     images: [
-      `${import.meta.env.BASE_URL}products/blockFire-device-studio.jpeg`,
-      `${import.meta.env.BASE_URL}products/blockFire-device-label.jpeg`,
+      `${import.meta.env.BASE_URL}products/blockfire-device-studio.jpeg`,
+      `${import.meta.env.BASE_URL}products/blockfire-device-label.jpeg`,
     ],
   },
 ];
